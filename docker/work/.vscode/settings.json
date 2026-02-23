@@ -1,0 +1,18 @@
+{
+    // 入力中の自動提案（サジェスト）をオフにする
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    // 文字を打った時のポップアップをオフにする
+    "editor.suggestOnTriggerCharacters": false,
+    // ファイル内の単語に基づく予測変換をオフにする
+    "editor.wordBasedSuggestions": "off",
+    // AIなどによるインライン補完（薄いグレーの文字で出てくる予測）をオフにする
+    "editor.inlineSuggest.enabled": false,
+    // もしGitHub Copilotなどの拡張機能が入っている場合、このワークスペースでのみ無効化
+    "github.copilot.enable": {
+        "*": false
+    }
+}
